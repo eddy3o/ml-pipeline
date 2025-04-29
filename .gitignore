@@ -1,0 +1,59 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+env/
+venv/
+.venv/
+
+# SQLite database files
+*.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and debug files
+*.log
+*.out
+*.err
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Generated files
+*.png
+*.svg
+
+# JSON data files (if sensitive or temporary)
+*.json
+
+# Ignore compiled Cython files
+*.so
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*.~*
+
+# Ignore test coverage reports
+htmlcov/
+.coverage
+*.cover
+*.coverage.*
+
+# Ignore pytest cache
+.pytest_cache/
+
+# Ignore Llama or AI-related cache files
+*.llama_cache
