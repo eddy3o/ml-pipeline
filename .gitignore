@@ -32,8 +32,13 @@ Thumbs.db
 *.png
 *.svg
 
-# JSON data files (if sensitive or temporary)
+# Data files (if sensitive or temporary)
 *.json
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.hdf5
 
 # Ignore compiled Cython files
 *.so
@@ -57,3 +62,5 @@ htmlcov/
 
 # Ignore Llama or AI-related cache files
 *.llama_cache
+
+.env
